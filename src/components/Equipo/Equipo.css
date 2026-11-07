@@ -115,3 +115,662 @@
 .team-contact a:hover {
     color: var(--accent-gold);
 }
+.equipo-section {
+  padding: 60px 20px;
+}
+
+.equipo-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.abogado-card {
+  background-color: var(--bg-card, #1E3E62);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 320px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.abogado-img-container img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.abogado-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-bio-yellow {
+  background-color: #d4af37;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Estilos para el modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-bio-content {
+  background-color: #ffffff;
+  color: #111;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.btn-cerrar-rojo {
+  background-color: #b91c1c;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+}
+/* SECCIÓN PRINCIPAL */
+.equipo-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* BUSCADOR */
+.equipo-search-box {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 480px;
+  padding: 12px 18px;
+  background-color: #0b1526;
+  border: 1px solid #c5a059;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #e5c178;
+  box-shadow: 0 0 8px rgba(197, 160, 89, 0.4);
+}
+
+/* GRID DE TARJETAS (3 COLUMNAS) */
+.equipo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+/* TARJETA */
+.abogado-card {
+  background-color: #1a2b4c;
+  border: 1px solid #283e66;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.abogado-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  border-color: #c5a059;
+}
+
+.abogado-img-wrapper {
+  width: 100%;
+  height: 240px;
+  background-color: #122038;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abogado-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* CONTENIDO DE TARJETA */
+.abogado-card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.socio-tag {
+  color: #c5a059;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.abogado-name {
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+}
+
+.email-badge {
+  background-color: #111d33;
+  color: #d1d5db;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-bottom: 18px;
+  display: inline-block;
+  word-break: break-all;
+}
+
+.card-social-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.action-btn.social {
+  background-color: #23385e;
+  color: #c5a059;
+}
+
+.action-btn.bio-btn {
+  background-color: #c5a059;
+  color: #0b1526;
+  font-weight: bold;
+}
+
+.action-btn.bio-btn:hover {
+  background-color: #e5c178;
+}
+
+/* MODAL DE BIOGRAFÍA DETALLADA (EXACTO AL HTML ORIGINAL) */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(5, 10, 20, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.modal-custom-box {
+  background-color: #ffffff;
+  color: #1c2833;
+  width: 100%;
+  max-width: 650px;
+  max-height: 85vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-close-icon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #7f8c8d;
+  cursor: pointer;
+}
+
+.modal-custom-header {
+  padding: 25px 30px 15px 30px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-custom-header h2 {
+  font-family: serif;
+  font-size: 1.5rem;
+  color: #0b1526;
+  margin: 0 0 5px 0;
+  font-weight: 800;
+}
+
+.modal-subtag {
+  color: #c5a059;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-email-link {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.modal-custom-body {
+  padding: 20px 30px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.bio-block {
+  margin-bottom: 20px;
+}
+
+.bio-block h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0b1526;
+  margin-bottom: 8px;
+}
+
+.bio-block p, .bio-block li {
+  font-size: 0.92rem;
+  color: #374151;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.bio-block ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.modal-custom-footer {
+  padding: 15px 30px;
+  border-top: 1px solid #e5e7eb;
+  text-align: right;
+}
+
+.btn-modal-cerrar {
+  background-color: #c5a059;
+  color: #0b1526;
+  border: none;
+  padding: 9px 24px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-modal-cerrar:hover {
+  background-color: #b08c46;
+}
+.abogado-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen sin recortar proporciones erróneas */
+  object-position: top center; /* Centra el enfoque en los rostros */
+}
+/* VARIABLES DE TEMA (CLARO Y OSCURO) */
+:root {
+  --equipo-bg: #ffffff;
+  --equipo-card-bg: #f8fafc;
+  --equipo-card-border: #e2e8f0;
+  --equipo-text-primary: #0f172a;
+  --equipo-text-secondary: #475569;
+  --equipo-gold: #c5a059;
+  --equipo-gold-hover: #b08c46;
+  --equipo-search-bg: #ffffff;
+  --equipo-search-border: #cbd5e1;
+  --equipo-badge-bg: #e2e8f0;
+  --equipo-badge-text: #334155;
+  --equipo-modal-backdrop: rgba(15, 23, 42, 0.6);
+  --equipo-modal-bg: #ffffff;
+}
+
+/* SI LA PLANTILLA ACTIVA MODO OSCURO (por clase .dark, .dark-theme o data-theme="dark") */
+body.dark, body.dark-mode, [data-theme="dark"] {
+  --equipo-bg: #0b1526;
+  --equipo-card-bg: #1a2b4c;
+  --equipo-card-border: #283e66;
+  --equipo-text-primary: #ffffff;
+  --equipo-text-secondary: #9ca3af;
+  --equipo-search-bg: rgba(255, 255, 255, 0.05);
+  --equipo-search-border: rgba(197, 160, 89, 0.4);
+  --equipo-badge-bg: #111d33;
+  --equipo-badge-text: #d1d5db;
+  --equipo-modal-backdrop: rgba(5, 10, 20, 0.85);
+  --equipo-modal-bg: #ffffff; /* El modal se mantiene limpio e institucional */
+}
+
+/* SECCIÓN PRINCIPAL */
+.equipo-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* BUSCADOR */
+.equipo-search-box {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 480px;
+  padding: 12px 18px;
+  background-color: var(--equipo-search-bg);
+  border: 1px solid var(--equipo-search-border);
+  border-radius: 6px;
+  color: var(--equipo-text-primary);
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: var(--equipo-gold);
+  box-shadow: 0 0 8px rgba(197, 160, 89, 0.4);
+}
+
+/* GRID DE TARJETAS */
+.equipo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+/* TARJETA */
+.abogado-card {
+  background-color: var(--equipo-card-bg);
+  border: 1px solid var(--equipo-card-border);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.abogado-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: var(--equipo-gold);
+}
+
+.abogado-img-wrapper {
+  width: 100%;
+  height: 240px;
+  background-color: rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abogado-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* CONTENIDO DE TARJETA */
+.abogado-card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.socio-tag {
+  color: var(--equipo-gold);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.abogado-name {
+  color: var(--equipo-text-primary);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+}
+
+.email-badge {
+  background-color: var(--equipo-badge-bg);
+  color: var(--equipo-badge-text);
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-bottom: 18px;
+  display: inline-block;
+  word-break: break-all;
+}
+
+.card-social-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.action-btn.social {
+  background-color: var(--equipo-badge-bg);
+  color: var(--equipo-gold);
+}
+
+.action-btn.bio-btn {
+  background-color: var(--equipo-gold);
+  color: #0b1526;
+  font-weight: bold;
+}
+
+.action-btn.bio-btn:hover {
+  background-color: var(--equipo-gold-hover);
+}
+
+/* MODAL DE BIOGRAFÍA DETALLADA */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--equipo-modal-backdrop);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.modal-custom-box {
+  background-color: var(--equipo-modal-bg);
+  color: #1c2833;
+  width: 100%;
+  max-width: 650px;
+  max-height: 85vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-close-icon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #7f8c8d;
+  cursor: pointer;
+}
+
+.modal-custom-header {
+  padding: 25px 30px 15px 30px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-custom-header h2 {
+  font-family: serif;
+  font-size: 1.5rem;
+  color: #0b1526;
+  margin: 0 0 5px 0;
+  font-weight: 800;
+}
+
+.modal-subtag {
+  color: var(--equipo-gold);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-email-link {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.modal-custom-body {
+  padding: 20px 30px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.bio-block {
+  margin-bottom: 20px;
+}
+
+.bio-block h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0b1526;
+  margin-bottom: 8px;
+}
+
+.bio-block p, .bio-block li {
+  font-size: 0.92rem;
+  color: #374151;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.bio-block ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.modal-custom-footer {
+  padding: 15px 30px;
+  border-top: 1px solid #e5e7eb;
+  text-align: right;
+}
+
+.btn-modal-cerrar {
+  background-color: var(--equipo-gold);
+  color: #0b1526;
+  border: none;
+  padding: 9px 24px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-modal-cerrar:hover {
+  background-color: var(--equipo-gold-hover);
+}

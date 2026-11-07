@@ -1,33 +1,64 @@
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
-const navbarMarkup = `<header>
-<div class="container nav-wrapper">
-<a class="logo" href="#">
-<i class="fa-solid fa-scale-balanced"></i>
-<span>TUPLUS <span class="gold-text">ABOGADOS</span></span>
-</a>
-<ul class="nav-links">
-<li><a class="active" data-lang="nav_home" href="#inicio">Inicio</a></li>
-<li><a data-lang="nav_firm" href="#la-firma">La Firma</a></li>
-<li><a data-lang="nav_practices" href="#practicas">Áreas de Práctica</a></li>
-<li><a data-lang="nav_team" href="#equipo">Equipo</a></li>
-<li><a data-lang="nav_calculator" href="#cotizador">Cotizador</a></li>
-<li><a data-lang="nav_contact" href="#contacto">Contacto</a></li>
-</ul>
-<div class="nav-actions">
-<!-- Selector de Idioma -->
-<button class="btn-lang" id="langToggle" onclick="toggleLanguage()" title="Cambiar Idioma / Change Language">
-<i class="fa-solid fa-globe"></i> <span id="langText">EN</span>
-</button>
-<!-- Modo Oscuro / Claro -->
-<button class="btn-theme" id="themeToggle" onclick="toggleTheme()" title="Cambiar Tema">
-<i class="fa-solid fa-moon" id="themeIcon"></i>
-</button>
-<a class="btn-gold" data-lang="btn_consult" href="#contacto">Consulta Legal</a>
-</div>
-</div>
-</header>`;
-
 export default function Navbar() {
-  return <div dangerouslySetInnerHTML={{ __html: navbarMarkup }} />;
+  return (
+    <header className="navbar-header">
+      <div className="container nav-wrapper">
+        <NavLink to="/" className="logo">
+          <i className="fa-solid fa-scale-balanced"></i>
+          TUPLUS <span className="gold-text">ABOGADOS</span>
+        </NavLink>
+
+        <ul className="nav-links">
+          <li>
+            <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Inicio
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/la-firma" className={({ isActive }) => (isActive ? 'active' : '')}>
+              La Firma
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/areas" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Áreas de Práctica
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/equipo" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Equipo
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/cotizador" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Cotizador
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacto" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Contacto
+            </NavLink>
+          </li>
+        </ul>
+
+        <div className="nav-actions">
+          {/* Selector de Idioma */}
+          <button className="btn-lang" id="langToggle" onClick={() => window.toggleLanguage?.()} title="Cambiar Idioma / Change Language">
+            <i className="fa-solid fa-fa-globe"></i> <span id="langText">EN</span>
+          </button>
+          
+          {/* Modo Oscuro / Claro */}
+          <button className="btn-theme" id="themeToggle" onClick={() => window.toggleTheme?.()} title="Cambiar Tema">
+            <i className="fa-solid fa-moon" id="themeIcon"></i>
+          </button>
+
+          <NavLink to="/contacto" className="btn-gold">
+            Consulta Legal
+          </NavLink>
+        </div>
+      </div>
+    </header>
+  );
 }

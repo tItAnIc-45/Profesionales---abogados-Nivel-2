@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './index.css';
 import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner/Banner';
@@ -15,8 +16,7 @@ import Perfil from './components/Perfil/Perfil';
 import ScrollTop from './components/ScrollTop/ScrollTop';
 import './scripts/main.js';
 import './scripts/calculator.js';
-/* PREUEBA DE EQUIPOOOOOO
-holaaaaaaaaaaaaaaa*/
+
 export default function App() {
   useEffect(() => {
     document.documentElement.lang = 'es';
@@ -25,19 +25,28 @@ export default function App() {
 
   return (
     <>
+      {/* Elementos fijos globales que se ven en todas las rutas */}
       <Navbar />
-      <Banner />
-      <LaFirma />
-      <Practicas />
-      <Equipo />
-      <Cotizador />
-      <Contacto />
       <WhatsappFloat />
       <ReadmeModal />
-      <Footer />
-      <Legal />
-      <Perfil />
       <ScrollTop />
+
+      {/* Aquí manejamos las rutas para que cada sección sea una vista independiente */}
+      <main>
+        <Routes>
+          <Route path="/" element={<Banner />} />
+          <Route path="/la-firma" element={<LaFirma />} />
+          <Route path="/areas" element={<Practicas />} />
+          <Route path="/equipo" element={<Equipo />} />
+          <Route path="/cotizador" element={<Cotizador />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/legal" element={<Legal />} />
+          <Route path="/perfil" element={<Perfil />} />
+        </Routes>
+      </main>
+
+      {/* Footer al final de todas las páginas */}
+      <Footer />
     </>
   );
 }

@@ -213,3 +213,11 @@
 }.mt-3 { margin-top: 2rem; }.text-right { text-align: right; }@media (max-width: 992px) {
     .contact-grid, .calc-grid { grid-template-columns: 1fr; }
 }
+html {
+  scroll-behavior: smooth;
+}
+
+/* Compensación opcional si tu Navbar es fijo (sticky/fixed) para que no tape los títulos al deslizar */
+section {
+  scroll-margin-top: 80px; 
+}
