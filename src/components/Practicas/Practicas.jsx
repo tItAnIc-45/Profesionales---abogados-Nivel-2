@@ -4,7 +4,7 @@ import './Practicas.css';
 export default function Practicas() {
   const [modalContent, setModalContent] = useState(null);
 
-  // Información detallada para el modal según cada especialidad
+  // Información detallada y ampliada para cada especialidad
   const modalDetails = {
     srv1: {
       titleKey: "srv1_title",
@@ -12,7 +12,7 @@ export default function Practicas() {
       subtitle: "Área de Especialización",
       descKey: "srv1_desc",
       defaultDesc: "Fusiones, adquisiciones, reestructuración patrimonial, contratos comerciales y gobierno corporativo.",
-      scope: "Ofrecemos asesoría integral a empresas nacionales e internacionales en su constitución, operaciones cotidianas, reestructuraciones societarias, fusiones y adquisiciones (M&A), así como en la prevención de riesgos corporativos y cumplimiento normativo."
+      scope: "Brindamos asesoría integral y estratégica a corporaciones nacionales e internacionales en todas las etapas de su ciclo de vida empresarial. Nuestros servicios abarcan la constitución de sociedades, juntas de accionistas, modificaciones estatutarias, estructuración y negociación de contratos comerciales complejos, procesos de debida diligencia (due diligence), fusiones y adquisiciones (M&A), así como la implementación de buenas prácticas de gobierno corporativo para mitigar riesgos legales y asegurar la continuidad del negocio."
     },
     srv2: {
       titleKey: "srv2_title",
@@ -20,7 +20,7 @@ export default function Practicas() {
       subtitle: "Área de Especialización",
       descKey: "srv2_desc",
       defaultDesc: "Defensa estratégica en procesos judiciales civiles, comerciales y arbitrajes institucionales.",
-      scope: "Representamos a nuestros clientes con rigor técnico y estrategia en litigios complejos ante el Poder Judicial y tribunales arbitrales nacionales e internacionales, protegiendo sus intereses comerciales y patrimoniales."
+      scope: "Representamos con rigor técnico, firmeza y alta estrategia a nuestros clientes en controversias complejas de índole civil, comercial, contractual y societaria. Actuamos tanto en el fuero judicial ordinario a nivel nacional como en tribunales arbitrales nacionales e internacionales. Diseñamos planes de contingencia para prevenir litigios y buscamos constantemente soluciones eficientes mediante la negociación y la conciliación antes de llegar a estrados."
     },
     srv3: {
       titleKey: "srv3_title",
@@ -28,7 +28,7 @@ export default function Practicas() {
       subtitle: "Área de Especialización",
       descKey: "srv3_desc",
       defaultDesc: "Asesoría preventiva y patrocinio en delitos corporativos, compliance y procesos penales complejos.",
-      scope: "Brindamos defensa legal especializada en delitos económicos, tributarios y corporativos, además de la implementación de modelos de prevención (compliance penal) para la persona jurídica."
+      scope: "Ofrecemos defensa legal especializada y de alta exigencia técnica en investigaciones y procesos penales vinculados a delitos económicos, tributarios, financieros y contra la administración pública. Asimismo, diseñamos e implementamos modelos de prevención y cumplimiento normativo (Compliance Penal y corporativo) orientados a blindar a las personas jurídicas frente a posibles responsabilidades penales de sus directivos o colaboradores."
     },
     srv4: {
       titleKey: "srv4_title",
@@ -36,7 +36,7 @@ export default function Practicas() {
       subtitle: "Área de Especialización",
       descKey: "srv4_desc",
       defaultDesc: "Auditoría de predios, saneamiento de propiedades, licencias urbanísticas y desarrollo de proyectos.",
-      scope: "Acompañamos en todas las fases de transacciones inmobiliarias, desde el estudio de títulos y saneamiento legal de predios hasta la estructuración de contratos de construcción y desarrollo urbano."
+      scope: "Acompañamos de principio a fin operaciones inmobiliarias de gran envergadura. Nuestros servicios incluyen el estudio exhaustivo de títulos, el saneamiento legal y registral de predios urbanos y rurales, la redacción de contratos de compraventa, arrendamiento y fideicomisos, así como la asesoría integral en la obtención de licencias urbanísticas, habilitaciones urbanas y estructuración jurídica para el desarrollo de proyectos inmobiliarios y comerciales."
     },
     srv5: {
       titleKey: "srv5_title",
@@ -44,7 +44,7 @@ export default function Practicas() {
       subtitle: "Área de Especialización",
       descKey: "srv5_desc",
       defaultDesc: "Planeamiento contractual laboral, negociación colectiva, auditorías y procesos judiciales laborales.",
-      scope: "Asesoramos en la gestión integral de recursos humanos, contratación de personal extranjero, prevención de contingencias laborales, procedimientos de cese colectivo y defensa en litigios laborales."
+      scope: "Asesoramos de manera preventiva y correctiva en la gestión integral del capital humano y las relaciones laborales empresariales. Esto comprende la elaboración de contratos de trabajo especiales, contratación de personal extranjero, diseño de políticas internas, auditorías laborales preventivas, conducción de negociaciones colectivas complejas, procesos de reestructuración de personal o cese colectivo, y patrocinio estratégico en procedimientos inspectivos de SUNAFIL y litigios laborales judiciales."
     },
     srv6: {
       titleKey: "srv6_title",
@@ -52,7 +52,7 @@ export default function Practicas() {
       subtitle: "Área de Especialización",
       descKey: "srv6_desc",
       defaultDesc: "Planificación fiscal estratégica, atención a fiscalizaciones y defensa ante la administración tributaria.",
-      scope: "Optimizamos la carga tributaria de las operaciones empresariales bajo el marco legal vigente, brindando patrocinio en procedimientos contenciosos tributarios ante SUNAT y el Tribunal Fiscal."
+      scope: "Brindamos consultoría orientada a optimizar de manera legal y eficiente la carga tributaria en las estructuras de negocio de nuestros clientes. Asesoramos en la correcta interpretación de normas fiscales nacionales e internacionales, brindamos patrocinio y defensa especializada durante procedimientos de fiscalización llevados a cabo por la SUNAT, y asumimos la representación legal en etapas contenciosas ante el Tribunal Fiscal y el Poder Judicial."
     }
   };
 
