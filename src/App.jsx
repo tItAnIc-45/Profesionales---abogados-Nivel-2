@@ -14,6 +14,7 @@ import Footer from './components/Footer/Footer';
 import Legal from './components/Legal/Legal';
 import Perfil from './components/Perfil/Perfil';
 import ScrollTop from './components/ScrollTop/ScrollTop';
+import './responsive/responsive.css'; // debe ir después de los CSS de los componentes
 import './scripts/main.js';
 import './scripts/calculator.js';
 
