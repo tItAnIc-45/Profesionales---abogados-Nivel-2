@@ -132,7 +132,7 @@
   background-color: var(--bg-card, #1E3E62);
   border-radius: 8px;
   overflow: hidden;
-  width: 320px;
+  
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
@@ -251,11 +251,11 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.abogado-card:hover {
+/* .abogado-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-  border-color: #c5a059;
-}
+  border-color: #c39b38;
+} */
 
 .abogado-img-wrapper {
   width: 100%;
@@ -270,8 +270,10 @@
 .abogado-img-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center;
+  padding: 24px;
+  box-sizing: border-box;
 }
 
 /* CONTENIDO DE TARJETA */
@@ -471,12 +473,13 @@
 .abogado-img-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ajusta la imagen sin recortar proporciones erróneas */
+  /*object-fit: cover;  Ajusta la imagen sin recortar proporciones erróneas */
   object-position: top center; /* Centra el enfoque en los rostros */
 }
 /* VARIABLES DE TEMA (CLARO Y OSCURO) */
 :root {
   --equipo-bg: #ffffff;
+  --borde-equipo:rgb(167, 142, 97);
   --equipo-card-bg: #f8fafc;
   --equipo-card-border: #e2e8f0;
   --equipo-text-primary: #0f172a;
@@ -549,8 +552,8 @@ body.dark, body.dark-mode, [data-theme="dark"] {
 /* TARJETA */
 .abogado-card {
   background-color: var(--equipo-card-bg);
-  border: 1px solid var(--equipo-card-border);
-  border-radius: 8px;
+  border: 1px solid var(--borde-equipo);
+  border-radius: 8px 40px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -576,7 +579,7 @@ body.dark, body.dark-mode, [data-theme="dark"] {
 .abogado-img-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   object-position: top center;
 }
 

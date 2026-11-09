@@ -3,6 +3,7 @@
    ========================================================================== */:root, [data-theme="dark"] {
     --bg-primary: #060E1A;
     --bg-secondary: #0B192C;
+    --borde:rgb(167, 142, 97);
     --bg-card: #1E3E62;
     --bg-card-hover: #264e7a;
     --accent-gold: #D4AF37;
@@ -142,9 +143,10 @@
     font-size: 0.9rem;
     margin-bottom: 1.2rem;
     flex-grow: 1;
-}/* Cotizador & Formulario */.calculator-container {
+}/* Cotizador & Formulario */
+.calculator-container {
     background: var(--bg-card);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--borde);
     border-radius: 12px;
     padding: 3rem;
     max-width: 900px;
