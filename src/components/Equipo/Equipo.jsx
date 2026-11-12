@@ -44,102 +44,114 @@ export default function Equipo() {
   const abogadosList = [
     {
       id: 1,
-      nombre: "JOSÉ CARLOS ANGULO PORTOCARRERO",
+      nombre: "MATEO ALEJANDRO VALDIVIA RIVERA",
       cargo: isEnglish ? "FOUNDING PARTNER" : "SOCIO FUNDADOR",
-      email: "jose.carlos@angulo.com.pe",
+      email: "mateo.valdivia@angulo.com.pe",
       img: "/assets/team-1.jpg",
       formacion: [
-        "Abogado especialista en Derecho Penal Económico y Derecho Procesal Penal por la Universidad Particular de San Martín de Porres (2000).",
-        "Estudios culminados en la Maestría de Derecho Penal de la Pontificia Universidad Católica del Perú (2004) y de Posgrado en Derecho Penal en la Universidad de Salamanca, España (2003).",
+        "Abogado especialista en Derecho Corporativo y Fusiones y Adquisiciones por la Universidad del Pacífico (2012).",
+        "Estudios concluidos en la Maestría en Derecho de la Empresa de la Universidad de Lima (2016).",
         "Magíster en Derecho con especialización en Litigación Oral (LL.M.) por la California Western School of Law (2016).",
-        "Máster en Cumplimiento Normativo en Derecho Penal por la Universidad de Castilla – La Mancha, España (2021)."
+        "Especialización en Gobierno Corporativo y Compliance por IE Business School, Madrid, España (2022)."
       ],
       experiencia: [
         "Su actividad profesional y trayectoria le han permitido intervenir en litigios penales de gran relevancia. Posee una amplia experiencia fundamentada en el ámbito dogmático y en el conocimiento preciso del funcionamiento del sistema judicial penal.",
-        "Actualmente se desempeña como Socio Director de Angulo Abogados, donde viene ejerciendo profesionalmente desde el año 2007."
+        "Actualmente se desempeña como Socio Principal de Angulo Abogados, liderando el departamento de derecho corporativo desde el año 2015."
       ],
       publicaciones: [
-        "“La presunción de inocencia en el Nuevo Código Procesal Penal.” Revista Advocatus N.° 17, Universidad de Lima, 2007.",
-        "“Criterios de la legítima defensa: Análisis en torno a un dictamen del Ministerio Público” en Temas de Derecho Penal, Ius et Veritas, Lima, 2012.",
-        "“La atribución de responsabilidad penal de las personas jurídicas y los modelos de prevención del delito…” Revista Advocatus N.° 33, 2017."
+        'Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.',
+        'Gobierno corporativo en empresas familiares: retos y perspectivas para el mercado andino.',
+        'La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.'
       ],
       membresias: [
-        "Instituto Peruano de Criminología y Ciencias Penales (INPECCP).",
-        "Capacitador de la Reforma Procesal Penal del Centro de Estudios de Justicia de las Américas (CEJA).",
+        "Instituto Peruano de Derecho Mercantil (IPDM)",
+        "Comité Legal de la Cámara de Comercio de Lima.",
         "Colegio de Abogados de Lima."
       ],
       docencia: [
-        "2003: Docente del curso de Derecho Procesal Penal en la Universidad Peruana de Ciencias Aplicadas (UPC)."
+        "2019-Presente: Docente del curso de Derecho Societario en la Universidad del Pacífico."
       ],
       idiomas: ["Español", "Inglés"]
     },
     {
       id: 2,
-      nombre: "JORGE LUIS ASCONA BALDEÓN",
+      nombre: "MARTÍN ALONSO PAREDES ROJAS",
       cargo: isEnglish ? "PARTNER" : "SOCIO",
-      email: "jorge.ascona@angulo.com.pe",
+      email: "martin.paredes@angulo.com.pe",
       img: "/assets/team-2.jpg",
       formacion: [
-        "Abogado titulado con mención de honor, especialista en derecho penal corporativo y litigación estratégica."
+        "Abogado titulado con tercio superior, especialista en Derecho Tributario y planeamiento fiscal estratégico."
       ],
-      experiencia: [
-        "Socio especialista en consultoría y patrocinio judicial en casos de alta complejidad procesal."
+    experiencia: [
+      "Socio líder en consultoría tributaria nacional e internacional, y defensa en controversias fiscales complejas."
       ],
-      publicaciones: [
-        "“La atribución de responsabilidad penal de las personas jurídicas y los modelos de prevención del delito.” Revista Advocatus N.° 33, 2017."
+    publicaciones: [
+      'Los precios de transferencia y su impacto en las reestructuraciones empresariales.” Revista Themis N.° 71, 2020.'
       ],
-      membresias: ["Colegio de Abogados de Lima."],
-      docencia: ["Ponente en seminarios de Derecho Procesal Penal."],
-      idiomas: ["Español", "Inglés"]
+    membresias: ["Colegio de Abogados de Lima.", "Instituto Peruano de Derecho Tributario (IPDT)."],
+    docencia: ["Profesor adjunto de Tributación Internacional en la Universidad del Pacífico."],
+    idiomas: ["Español", "Inglés"]
     },
     {
       id: 3,
-      nombre: "ISABEL ESPEJO CASTILLO",
+      nombre: "SOFÍA VALERIA CAMPOS HUAMÁN",
       cargo: isEnglish ? "PRINCIPAL ASSOCIATE" : "ASOCIADA PRINCIPAL",
-      email: "isabel.espejo@angulo.com.pe",
+      email: "sofia.campos@angulo.com.pe",
       img: "/assets/team-3.jpg",
       formacion: [
-        "Abogada especialista en consultoría corporativa integral y contrataciones con el Estado."
-      ],
+      "Abogada especialista en Propiedad Intelectual, Nuevas Tecnologías y Protección de Datos."
+    ],
       experiencia: [
-        "Asesora legal senior encargada del área regulatoria y solución de controversias contractuales."
-      ],
-      membresias: ["Colegio de Abogados de Lima."],
+      "Asesora legal senior encargada del registro de marcas, patentes y cumplimiento regulatorio tecnológico."
+    ],
+      membresias: ["Colegio de Abogados de Lima.", "Asociación Interamericana de la Propiedad Intelectual (ASIPI)."],
       docencia: [],
-      idiomas: ["Español", "Inglés"]
+      idiomas: ["Español", "Inglés", "Portugués"]
     },
     {
       id: 4,
-      nombre: "CARLOS ALBERTO RIVERA SOTO",
+      nombre: "DIEGO ARMANDO SILVA GUEVARA",
       cargo: isEnglish ? "SENIOR ASSOCIATE" : "ASOCIADO SENIOR",
-      email: "carlos.rivera@angulo.com.pe",
+      email: "diego.silva@angulo.com.pe",
       img: "/assets/team-1.jpg",
-      formacion: ["Especialista en Derecho Civil Patrimonial y arbitraje comercial."],
-      experiencia: ["Amplia trayectoria en litigación arbitral civil y comercial."],
+      formacion: [
+        "Especialista en Derecho Financiero, Mercado de Valores y Banca."
+      ],
+      experiencia: [
+        "Amplia trayectoria en estructuración de financiamientos corporativos y emisión de valores."
+      ],
       membresias: ["Colegio de Abogados de Lima."],
       docencia: [],
       idiomas: ["Español", "Inglés"]
     },
     {
       id: 5,
-      nombre: "MARÍA ELENA PAREDES MENDOZA",
+      nombre: "ANDREA LUCÍA MENDOZA SALAZAR",
       cargo: isEnglish ? "ASSOCIATE" : "ASOCIADA",
-      email: "maria.paredes@angulo.com.pe",
+      email: "andrea.mendoza@angulo.com.pe",
       img: "/assets/team-3.jpg",
-      formacion: ["Abogada especialista en Derecho Laboral Corporativo."],
-      experiencia: ["Consultora en prevención de riesgos laborales y auditorías internas."],
+      formacion: [
+        "Abogada especialista en Derecho Ambiental y Regulación de Recursos Naturales."
+      ],
+      experiencia: [
+        "Consultora en auditorías de cumplimiento socioambiental y obtención de permisos sectoriales."
+      ],
       membresias: ["Colegio de Abogados de Lima."],
       docencia: [],
       idiomas: ["Español", "Inglés"]
     },
     {
       id: 6,
-      nombre: "LUCÍA FERNANDA GÓMEZ RUIZ",
-      cargo: isEnglish ? "JUNIOR CONSULTANT" : "CONSULTORA JUNIOR",
-      email: "lucia.gomez@angulo.com.pe",
+      nombre: "GABRIEL IGNACIO ROJAS NAVARRO",
+      cargo: isEnglish ? "JUNIOR CONSULTANT" : "CONSULTOR JUNIOR",
+      email: "gabriel.rojas@angulo.com.pe",
       img: "/assets/team-2.jpg",
-      formacion: ["Especialista en Derecho Administrativo y Contrataciones Públicas."],
-      experiencia: ["Asistencia legal en procedimientos administrativos sancionadores."],
+      formacion: [
+        "Especialista en Derecho de la Competencia y Protección al Consumidor."
+      ],
+      experiencia: [
+        "Asistencia legal en procedimientos ante el INDECOPI y análisis de concentraciones empresariales."
+      ],
       membresias: ["Colegio de Abogados de Lima."],
       docencia: [],
       idiomas: ["Español", "Inglés"]
