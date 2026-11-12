@@ -44,117 +44,117 @@ export default function Equipo() {
   const abogadosList = [
     {
       id: 1,
-    nombre: "MATEO ALEJANDRO VALDIVIA RIVERA",
-    cargo: isEnglish ? "FOUNDING PARTNER" : "SOCIO FUNDADOR",
-    email: "mateo.valdivia@angulo.com.pe",
-    img: "/assets/team-1.jpg",
-    formacion: [
-      "Abogado especialista en Derecho Corporativo y Fusiones y Adquisiciones por la Universidad del Pacífico (2012).",
-      "Estudios concluidos en la Maestría en Derecho de la Empresa de la Universidad de Lima (2016).",
-      "Master in Corporate Law (LL.M.) por Columbia Law School (2018).",
-      "Especialización en Gobierno Corporativo y Compliance por IE Business School, Madrid, España (2022)."
-    ],
-    experiencia: [
-      "Su práctica profesional se concentra en asesoría corporativa compleja, transacciones comerciales transfronterizas y estructuración de proyectos de inversión.",
-      "Actualmente se desempeña como Socio Principal en Angulo Abogados, liderando el departamento de derecho corporativo desde el año 2015."
-    ],
-    publicaciones: [
-      'Los pactos de accionistas y su oponibilidad en el derecho societario peruano.'/ "Revista Themis N.° 65, 2017.",
-      'Gobierno corporativo en empresas familiares: retos y perspectivas para el mercado andino.',
-      'La responsabilidad de los administradores en operaciones de M&A.\" En Anuario de Derecho Mercantil, 2021.'
-    ],
-    membresias: [
-      "Instituto Peruano de Derecho Mercantil (IPDM).",
-      "Comité Legal de la Cámara de Comercio de Lima.",
-      "Colegio de Abogados de Lima."
-    ],
-    docencia: [
-      "2019-Presente: Docente del curso de Derecho Societario en la Universidad del Pacífico."
-    ],
-    idiomas: ["Español", "Inglés", "Francés"]
-  },
-  {
-    id: 2,
-    nombre: "MARTÍN ALONSO PAREDES ROJAS",
-    cargo: isEnglish ? "PARTNER" : "SOCIO",
-    email: "martin.paredes@angulo.com.pe",
-    img: "/assets/team-2.jpg",
-    formacion: [
-      "Abogado titulado con tercio superior, especialista en Derecho Tributario y planeamiento fiscal estratégico."
-    ],
+      nombre: "MATEO ALEJANDRO VALDIVIA RIVERA",
+      cargo: isEnglish ? "FOUNDING PARTNER" : "SOCIO FUNDADOR",
+      email: "mateo.valdivia@tuplusabogados.com.pe",
+      img: "/assets/team-1.jpg",
+      formacion: [
+        "Abogado especialista en Derecho Corporativo y Fusiones y Adquisiciones por la Universidad del Pacífico (2012).",
+        "Estudios concluidos en la Maestría en Derecho de la Empresa de la Universidad de Lima (2016).",
+        "Magíster en Derecho con especialización en Litigación Oral (LL.M.) por la California Western School of Law (2016).",
+        "Especialización en Gobierno Corporativo y Compliance por IE Business School, Madrid, España (2022)."
+      ],
+      experiencia: [
+        "Su actividad profesional y trayectoria le han permitido intervenir en litigios penales de gran relevancia. Posee una amplia experiencia fundamentada en el ámbito dogmático y en el conocimiento preciso del funcionamiento del sistema judicial penal.",
+        "Actualmente se desempeña como Socio Principal de Angulo Abogados, liderando el departamento de derecho corporativo desde el año 2015."
+      ],
+      publicaciones: [
+        'Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.',
+        'Gobierno corporativo en empresas familiares: retos y perspectivas para el mercado andino.',
+        'La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.'
+      ],
+      membresias: [
+        "Instituto Peruano de Derecho Mercantil (IPDM)",
+        "Comité Legal de la Cámara de Comercio de Lima.",
+        "Colegio de Abogados de Lima."
+      ],
+      docencia: [
+        "2019-Presente: Docente del curso de Derecho Societario en la Universidad del Pacífico."
+      ],
+      idiomas: ["Español", "Inglés"]
+    },
+    {
+      id: 2,
+      nombre: "MARTÍN ALONSO PAREDES ROJAS",
+      cargo: isEnglish ? "PARTNER" : "SOCIO",
+      email: "martin.paredes@tuplusabogados.com.pe",
+      img: "/assets/team-2.jpg",
+      formacion: [
+        "Abogado titulado con tercio superior, especialista en Derecho Tributario y planeamiento fiscal estratégico."
+      ],
     experiencia: [
       "Socio líder en consultoría tributaria nacional e internacional, y defensa en controversias fiscales complejas."
-    ],
+      ],
     publicaciones: [
-      'Los precios de transferencia y su impacto en las reestructuraciones empresariales.'/"Revista Themis N.° 71, 2020."
-    ],
+      'Los precios de transferencia y su impacto en las reestructuraciones empresariales.” Revista Themis N.° 71, 2020.'
+      ],
     membresias: ["Colegio de Abogados de Lima.", "Instituto Peruano de Derecho Tributario (IPDT)."],
     docencia: ["Profesor adjunto de Tributación Internacional en la Universidad del Pacífico."],
     idiomas: ["Español", "Inglés"]
-  },
-  {
-    id: 3,
-    nombre: "SOFÍA VALERIA CAMPOS HUAMÁN",
-    cargo: isEnglish ? "PRINCIPAL ASSOCIATE" : "ASOCIADA PRINCIPAL",
-    email: "sofia.campos@angulo.com.pe",
-    img: "/assets/team-3.jpg",
-    formacion: [
+    },
+    {
+      id: 3,
+      nombre: "SOFÍA VALERIA CAMPOS HUAMÁN",
+      cargo: isEnglish ? "PRINCIPAL ASSOCIATE" : "ASOCIADA PRINCIPAL",
+      email: "sofia.campos@tuplusabogados.com.pe",
+      img: "/assets/team-3.jpg",
+      formacion: [
       "Abogada especialista en Propiedad Intelectual, Nuevas Tecnologías y Protección de Datos."
     ],
-    experiencia: [
+      experiencia: [
       "Asesora legal senior encargada del registro de marcas, patentes y cumplimiento regulatorio tecnológico."
     ],
-    membresias: ["Colegio de Abogados de Lima.", "Asociación Interamericana de la Propiedad Intelectual (ASIPI)."],
-    docencia: [],
-    idiomas: ["Español", "Inglés", "Portugués"]
-  },
-  {
-    id: 4,
-    nombre: "DIEGO ARMANDO SILVA GUEVARA",
-    cargo: isEnglish ? "SENIOR ASSOCIATE" : "ASOCIADO SENIOR",
-    email: "diego.silva@angulo.com.pe",
-    img: "/assets/team-1.jpg",
-    formacion: [
-      "Especialista en Derecho Financiero, Mercado de Valores y Banca."
-    ],
-    experiencia: [
-      "Amplia trayectoria en estructuración de financiamientos corporativos y emisión de valores."
-    ],
-    membresias: ["Colegio de Abogados de Lima."],
-    docencia: [],
-    idiomas: ["Español", "Inglés"]
-  },
-  {
-    id: 5,
-    nombre: "ANDREA LUCÍA MENDOZA SALAZAR",
-    cargo: isEnglish ? "ASSOCIATE" : "ASOCIADA",
-    email: "andrea.mendoza@angulo.com.pe",
-    img: "/assets/team-3.jpg",
-    formacion: [
-      "Abogada especialista en Derecho Ambiental y Regulación de Recursos Naturales."
-    ],
-    experiencia: [
-      "Consultora en auditorías de cumplimiento socioambiental y obtención de permisos sectoriales."
-    ],
-    membresias: ["Colegio de Abogados de Lima."],
-    docencia: [],
-    idiomas: ["Español", "Inglés"]
-  },
-  {
-    id: 6,
-    nombre: "GABRIEL IGNACIO ROJAS NAVARRO",
-    cargo: isEnglish ? "JUNIOR CONSULTANT" : "CONSULTOR JUNIOR",
-    email: "gabriel.rojas@angulo.com.pe",
-    img: "/assets/team-2.jpg",
-    formacion: [
-      "Especialista en Derecho de la Competencia y Protección al Consumidor."
-    ],
-    experiencia: [
-      "Asistencia legal en procedimientos ante el INDECOPI y análisis de concentraciones empresariales."
-    ],
-    membresias: ["Colegio de Abogados de Lima."],
-    docencia: [],
-    idiomas: ["Español", "Inglés"]
+      membresias: ["Colegio de Abogados de Lima.", "Asociación Interamericana de la Propiedad Intelectual (ASIPI)."],
+      docencia: [],
+      idiomas: ["Español", "Inglés", "Portugués"]
+    },
+    {
+      id: 4,
+      nombre: "DIEGO ARMANDO SILVA GUEVARA",
+      cargo: isEnglish ? "SENIOR ASSOCIATE" : "ASOCIADO SENIOR",
+      email: "diego.silva@tuplusabogados.com.pe",
+      img: "/assets/team-1.jpg",
+      formacion: [
+        "Especialista en Derecho Financiero, Mercado de Valores y Banca."
+      ],
+      experiencia: [
+        "Amplia trayectoria en estructuración de financiamientos corporativos y emisión de valores."
+      ],
+      membresias: ["Colegio de Abogados de Lima."],
+      docencia: [],
+      idiomas: ["Español", "Inglés"]
+    },
+    {
+      id: 5,
+      nombre: "ANDREA LUCÍA MENDOZA SALAZAR",
+      cargo: isEnglish ? "ASSOCIATE" : "ASOCIADA",
+      email: "andrea.mendoza@tuplusabogados.com.pe",
+      img: "/assets/team-3.jpg",
+      formacion: [
+        "Abogada especialista en Derecho Ambiental y Regulación de Recursos Naturales."
+      ],
+      experiencia: [
+        "Consultora en auditorías de cumplimiento socioambiental y obtención de permisos sectoriales."
+      ],
+      membresias: ["Colegio de Abogados de Lima."],
+      docencia: [],
+      idiomas: ["Español", "Inglés"]
+    },
+    {
+      id: 6,
+      nombre: "GABRIEL IGNACIO ROJAS NAVARRO",
+      cargo: isEnglish ? "JUNIOR CONSULTANT" : "CONSULTOR JUNIOR",
+      email: "gabriel.rojas@tuplusabogados.com.pe",
+      img: "/assets/team-2.jpg",
+      formacion: [
+        "Especialista en Derecho de la Competencia y Protección al Consumidor."
+      ],
+      experiencia: [
+        "Asistencia legal en procedimientos ante el INDECOPI y análisis de concentraciones empresariales."
+      ],
+      membresias: ["Colegio de Abogados de Lima."],
+      docencia: [],
+      idiomas: ["Español", "Inglés"]
     }
   ];
 

@@ -15,7 +15,7 @@ const contactoMarkup = `<section class="section-secondary" id="contacto">
 </div>
 <div class="contact-info-card">
 <h4><i class="fa-solid fa-phone"></i> <span data-lang="phone_title">Central Telefónica</span></h4>
-<p>+51 (1) 614-7000 / +51 987 654 321</p>
+<p>+51 (1) 555-666 / +51 999 888 777</p>
 </div>
 <div class="contact-info-card">
 <h4><i class="fa-solid fa-envelope"></i> <span data-lang="email_title">Correo de Atención</span></h4>
