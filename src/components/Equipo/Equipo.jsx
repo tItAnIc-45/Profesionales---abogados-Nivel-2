@@ -56,7 +56,7 @@ export default function Equipo() {
       ],
       experiencia: [
         "Su actividad profesional y trayectoria le han permitido intervenir en litigios penales de gran relevancia. Posee una amplia experiencia fundamentada en el ámbito dogmático y en el conocimiento preciso del funcionamiento del sistema judicial penal.",
-        "Actualmente se desempeña como Socio Principal de Angulo Abogados, liderando el departamento de derecho corporativo desde el año 2015."
+        "Actualmente se desempeña como Socio Principal de TuPlusAbogados, liderando el departamento de derecho corporativo desde el año 2015."
       ],
       publicaciones: [
         'Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.',
