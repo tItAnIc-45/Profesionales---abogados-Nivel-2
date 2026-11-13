@@ -6,16 +6,16 @@ const footerMarkup = `<footer>
 <div>
 <a class="footer-logo" href="#">
 <i class="fa-solid fa-scale-balanced gold-text"></i> TUPLUS ABOGADOS
-                    </a>
+</a>
 <p class="footer-desc" data-lang="footer_desc">Firma legal comprometida con el desarrollo corporativo, la defensa jurídica integral y la excelencia en el patrocinio de nuestros clientes.</p>
 </div>
 <div>
 <h4 class="footer-title" data-lang="foot_nav">Navegación</h4>
 <ul class="footer-links">
-<li><a data-lang="nav_firm" href="#la-firma">La Firma</a></li>
-<li><a data-lang="nav_practices" href="#practicas">Áreas de Práctica</a></li>
-<li><a data-lang="nav_team" href="#equipo">Nuestros Abogados</a></li>
-<li><a data-lang="nav_calculator" href="#cotizador">Calculadora Legal</a></li>
+<li><a data-lang="nav_firm" href="/la-firma">La Firma</a></li>
+<li><a data-lang="nav_practices" href="/areas">Áreas de Práctica</a></li>
+<li><a data-lang="nav_team" href="/equipo">Nuestros Abogados</a></li>
+<li><a data-lang="nav_calculator" href="/cotizador">Calculadora Legal</a></li>
 </ul>
 </div>
 <div>
@@ -27,11 +27,8 @@ const footerMarkup = `<footer>
 </ul>
 </div>
 <div>
-<h4 class="footer-title">Documentación</h4>
-<p class="footer-doc-text">Consulte las características técnicas de la plantilla.</p>
-<button class="btn-outline btn-full" onclick="openModal('readmeModal')">
-<i class="fa-solid fa-file-code"></i> Ver README.md
-                    </button>
+<h4 class="footer-title">TuPlus Abogados</h4>
+<p class="footer-doc-text">Comprometidos con la excelencia jurídica y el éxito de nuestros clientes corporativos y personales.</p>
 </div>
 </div>
 <div class="footer-bottom">

@@ -1,62 +1,74 @@
 import './Perfil.css';
 
-const perfilMarkup = `<div class="modal" id="modal-jose-carlos">
+const perfilMarkup = `<div class="modal" id="modal-mateo-alejandro">
 <div class="modal-content profile-modal-content">
-<button class="modal-close" onclick="closeModal('modal-jose-carlos')">×</button>
-<h2 class="profile-modal-name">JOSE CARLOS ANGULO PORTOCARRERO</h2>
+<button class="modal-close" onclick="closeModal('modal-mateo-alejandro')">×</button>
+<h2 class="profile-modal-name">MATEO ALEJANDRO VALDIVIA RIVERA</h2>
 <p class="profile-modal-role" data-en="FOUNDING PARTNER" data-es="SOCIO FUNDADOR">SOCIO FUNDADOR</p>
 <hr class="profile-divider"/>
-<p class="profile-email"><i class="fa-solid fa-envelope"></i> jose.carlos@angulo.com.pe</p>
+<p class="profile-email"><i class="fa-solid fa-envelope"></i> mateo.valdivia@tuplusabogados.com.pe</p>
 <div class="profile-modal-body">
 <h3 data-en="Academic Background:" data-es="Formación académica:">Formación académica:</h3>
-<p data-en="Lawyer specialized in Economic Criminal Law and Criminal Procedural Law from the Universidad Particular de San Martín de Porres (2000). Completed studies in the Master's in Criminal Law at the Pontificia Universidad Católica del Perú (2004) and Postgraduate studies in Criminal Law at the University of Salamanca, Spain (2003)." data-es="Abogado especialista en Derecho Penal Económico y Derecho Procesal Penal por la Universidad Particular de San Martín de Porres (2000). Estudios culminados en la Maestría de Derecho Penal de la Pontificia Universidad Católica del Perú (2004) y de Posgrado en Derecho Penal en la Universidad de Salamanca, España (2003).">Abogado especialista en Derecho Penal Económico y Derecho Procesal Penal por la Universidad Particular de San Martín de Porres (2000). Estudios culminados en la Maestría de Derecho Penal de la Pontificia Universidad Católica del Perú (2004) y de Posgrado en Derecho Penal en la Universidad de Salamanca, España (2003).</p>
-<p data-en="He holds a Master of Laws (LL.M.) specializing in Oral Advocacy from California Western School of Law (2016), as well as a Master's in Criminal Compliance from the University of Castilla – La Mancha, Spain (2021). Cross-examination course at Alejandro Decastro Gonzales Legal Clinic – Medellín, Colombia (2023)." data-es="Es Magister en Derecho con especialización en Litigación Oral (LL.M.) por la California Western School of Law (2016). Asimismo, cuenta con un Máster en Cumplimiento Normativo en Derecho Penal por la Universidad de Castilla – La Mancha, España (2021). Curso de Contrainterrogatorio en la Clínica Jurídica Alejandro Decastro Gonzales – Medellín, Colombia (2023).">Es Magister en Derecho con especialización en Litigación Oral (LL.M.) por la California Western School of Law (2016). Asimismo, cuenta con un Máster en Cumplimiento Normativo en Derecho Penal por la Universidad de Castilla – La Mancha, España (2021). Curso de Contrainterrogatorio en la Clínica Jurídica Alejandro Decastro Gonzales – Medellín, Colombia (2023).</p>
+<p data-en="Lawyer specialized in Corporate Law and Mergers & Acquisitions from Universidad del Pacífico (2012). Completed studies in the Master's in Business Law at Universidad de Lima (2016)." data-es="Abogado especialista en Derecho Corporativo y Fusiones y Adquisiciones por la Universidad del Pacífico (2012). Estudios concluidos en la Maestría en Derecho de la Empresa de la Universidad de Lima (2016).">Abogado especialista en Derecho Corporativo y Fusiones y Adquisiciones por la Universidad del Pacífico (2012). Estudios concluidos en la Maestría en Derecho de la Empresa de la Universidad de Lima (2016).</p>
+<p data-en="He holds a Master in Corporate Law (LL.M.) from Columbia Law School (2018). Additionally, he has a Specialization in Corporate Governance and Compliance from IE Business School, Madrid, Spain (2022)." data-es="Master in Corporate Law (LL.M.) por Columbia Law School (2018). Asimismo, cuenta con una Especialización en Gobierno Corporativo y Compliance por IE Business School, Madrid, España (2022).">Master in Corporate Law (LL.M.) por Columbia Law School (2018). Asimismo, cuenta con una Especialización en Gobierno Corporativo y Compliance por IE Business School, Madrid, España (2022).</p>
 <h3 data-en="Experience:" data-es="Experiencia:">Experiencia:</h3>
-<p data-en="His professional activity and career have allowed him to intervene in high-profile criminal litigation. He possesses extensive experience grounded in the dogmatic field and precise knowledge of the functioning of the criminal judicial system." data-es="Su actividad profesional y trayectoria le han permitido intervenir en litigios penales de gran relevancia. Posee una amplia experiencia fundamentada en el ámbito dogmático y en el conocimiento preciso del funcionamiento del sistema judicial penal.">Su actividad profesional y trayectoria le han permitido intervenir en litigios penales de gran relevancia. Posee una amplia experiencia fundamentada en el ámbito dogmático y en el conocimiento preciso del funcionamiento del sistema judicial penal.</p>
-<p data-en="He is the author of various research papers and publications related to Criminal Law and its implications for business activity." data-es="Es autor de diversos trabajos de investigación y publicaciones relacionados al Derecho Penal y a sus implicancias en el ejercicio de la actividad empresarial.">Es autor de diversos trabajos de investigación y publicaciones relacionados al Derecho Penal y a sus implicancias en el ejercicio de la actividad empresarial.</p>
-<p data-en="He currently serves as Managing Partner of Angulo Abogados, practicing professionally since 2007. He has been part of the criminal law departments at Muñiz and Benites, Mercado &amp; Ugaz law firms." data-es="Actualmente se desempeña como Socio Director de Angulo Abogados, donde viene ejerciendo profesionalmente desde el año 2007. Ha formado parte de las áreas penales de los Estudios Muñiz y Benites, Mercado &amp; Ugaz.">Actualmente se desempeña como Socio Director de Angulo Abogados, donde viene ejerciendo profesionalmente desde el año 2007. Ha formado parte de las áreas penales de los Estudios Muñiz y Benites, Mercado &amp; Ugaz.</p>
+<p data-en="His professional practice focuses on complex corporate advisory, cross-border commercial transactions, and the structuring of investment projects." data-es="Su práctica profesional se concentra en asesoría corporativa compleja, transacciones comerciales transfronterizas y estructuración de proyectos de inversión.">Su práctica profesional se concentra en asesoría corporativa compleja, transacciones comerciales transfronterizas y estructuración de proyectos de inversión.</p>
+<p data-en="He is the author of various research papers and publications related to Corporate Law and business transactions." data-es="Es autor de diversos trabajos de investigación y publicaciones relacionados al Derecho Corporativo y las transacciones empresariales.">Es autor de diversos trabajos de investigación y publicaciones relacionados al Derecho Corporativo y las transacciones empresariales.</p>
+<p data-en="He currently serves as Principal Partner at TuPlus Abogados, leading the corporate law department since 2015." data-es="Actualmente se desempeña como Socio Principal en Angulo Abogados, liderando el departamento de derecho corporativo desde el año 2015.">Actualmente se desempeña como Socio Principal en Angulo Abogados, liderando el departamento de derecho corporativo desde el año 2015.</p>
 <h3 data-en="Theses and Publications:" data-es="Tesis y publicaciones:">Tesis y publicaciones:</h3>
 <ul>
-<li data-en="“Criminal liability of legal entities – Accessory consequences.” Legal Reports Bulletin of Muñiz, Forsyth, Ramírez, Pérez-Taiman &amp; Luna-Victoria Associates." data-es="“La responsabilidad penal de las personas jurídicas – Consecuencias accesorias.” Boletín de Informes Legales del Estudio Muñiz, Forsyth, Ramírez, Pérez-Taiman &amp; Luna-Victoria Asociados.">“La responsabilidad penal de las personas jurídicas – Consecuencias accesorias.” Boletín de Informes Legales del Estudio Muñiz, Forsyth, Ramírez, Pérez-Taiman &amp; Luna-Victoria Asociados.</li>
-<li data-en="“Civil reparation in criminal proceedings.” Legal Reports of Benites, Mercado &amp; Ugaz Law Firm." data-es="“La reparación civil en el proceso penal.” Informes Legales del Estudio Benites, Mercado &amp; Ugaz.">“La reparación civil en el proceso penal.” Informes Legales del Estudio Benites, Mercado &amp; Ugaz.</li>
-<li data-en="“The presumption of innocence in the New Criminal Procedure Code.” Advocatus Magazine No. 17, Faculty of Law of the University of Lima, Lima, 2007." data-es="“La presunción de inocencia en el Nuevo Código Procesal Penal.” Revista Advocatus N.° 17, Facultad de Derecho de la Universidad de Lima, Lima, 2007.">“La presunción de inocencia en el Nuevo Código Procesal Penal.” Revista Advocatus N.° 17, Facultad de Derecho de la Universidad de Lima, Lima, 2007.</li>
-<li data-en="“Criteria for self-defense: Analysis around a Public Ministry opinion” in the book Topics in Criminal Law, Ius et Veritas, Lima, 2012." data-es="“Criterios de la legítima defensa: Análisis en torno a un dictamen del Ministerio Público” en el libro Temas de Derecho Penal, Ius et Veritas, Lima, 2012.">“Criterios de la legítima defensa: Análisis en torno a un dictamen del Ministerio Público” en el libro Temas de Derecho Penal, Ius et Veritas, Lima, 2012.</li>
-<li data-en="“The attribution of criminal liability of legal entities and crime prevention models: legal analysis based on Law No. 30424.” Advocatus Magazine No. 33, Faculty of Law of the University of Lima, Lima, 2017." data-es="“La atribución de responsabilidad penal de las personas jurídicas y los modelos de prevención del delito: análisis jurídico a partir de la Ley N.° 30424.” Revista Advocatus N.° 33, Facultad de Derecho de la Universidad de Lima, Lima, 2017.">“La atribución de responsabilidad penal de las personas jurídicas y los modelos de prevención del delito: análisis jurídico a partir de la Ley N.° 30424.” Revista Advocatus N.° 33, Facultad de Derecho de la Universidad de Lima, Lima, 2017.</li>
-<li data-en="“Effective collaboration?: notes on the reliability of the effective collaboration procedure in light of D.S. No. 07-2017-JUS and Plenary Agreement No. 02-2017-SPN” (unpublished)." data-es="“Colaboración ¿eficaz?: apuntes sobre la fiabilidad del procedimiento de colaboración eficaz a la luz del D.S. N.° 07-2017-JUS y del Acuerdo Plenario N.° 02-2017-SPN” (inédito).">“Colaboración ¿eficaz?: apuntes sobre la fiabilidad del procedimiento de colaboración eficaz a la luz del D.S. N.° 07-2017-JUS y del Acuerdo Plenario N.° 02-2017-SPN” (inédito).</li>
+<li data-en="“Shareholders' agreements and their enforceability in Peruvian corporate law.” Themis Magazine No. 65, 2017." data-es="“Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.">“Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.</li>
+<li data-en="“Corporate governance in family businesses: Challenges and perspectives for the Andean market.”" data-es="“Gobierno corporativo en empresas familiares: retos y perspectivas para el mercado andino.”">“Gobierno corporativo en empresas familiares: retos y perspectivas para el mercado andino.”</li>
+<li data-en="“The liability of administrators in M&A operations.” In Commercial Law Yearbook, 2021." data-es="“La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.">“La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.</li>
 </ul>
 <h3 data-en="Memberships:" data-es="Membresías:">Membresías:</h3>
 <ul>
-<li data-en="Peruvian Institute of Criminology and Penal Sciences (INPECCP)." data-es="Instituto Peruano de Criminología y Ciencias Penales (INPECCP).">Instituto Peruano de Criminología y Ciencias Penales (INPECCP).</li>
-<li data-en="Trainer of the Criminal Procedural Reform of the Center for Justice Studies of the Americas (CEJA)." data-es="Capacitador de la Reforma Procesal Penal del Centro de Estudios de Justicia de las Américas (CEJA).">Capacitador de la Reforma Procesal Penal del Centro de Estudios de Justicia de las Américas (CEJA).</li>
+<li data-en="Peruvian Institute of Mercantile Law (IPDM)." data-es="Instituto Peruano de Derecho Mercantil (IPDM).">Instituto Peruano de Derecho Mercantil (IPDM).</li>
+<li data-en="Legal Committee of the Lima Chamber of Commerce." data-es="Comité Legal de la Cámara de Comercio de Lima.">Comité Legal de la Cámara de Comercio de Lima.</li>
 <li data-en="Lima Bar Association." data-es="Colegio de Abogados de Lima.">Colegio de Abogados de Lima.</li>
 </ul>
 <h3 data-en="Teaching:" data-es="Docencia:">Docencia:</h3>
 <ul>
-<li data-en="2003: Professor of Criminal Procedural Law at the Universidad Peruana de Ciencias Aplicadas." data-es="2003: Docente del curso de Derecho Procesal Penal en la Universidad Peruana de Ciencias Aplicadas.">2003: Docente del curso de Derecho Procesal Penal en la Universidad Peruana de Ciencias Aplicadas.</li>
+<li data-en="2019-Present: Professor of Corporate Law at Universidad del Pacífico." data-es="2019-Presente: Docente del curso de Derecho Societario en la Universidad del Pacífico.">2019-Presente: Docente del curso de Derecho Societario en la Universidad del Pacífico.</li>
 </ul>
 <h3 data-en="Languages:" data-es="Idiomas:">Idiomas:</h3>
 <ul>
 <li data-en="Spanish" data-es="Español">Español</li>
 <li data-en="English" data-es="Inglés">Inglés</li>
+<li data-en="French" data-es="Francés">Francés</li>
 </ul>
 </div>
 <div class="text-right mt-3">
-<button class="btn-gold" data-en="Close" data-es="Cerrar" onclick="closeModal('modal-jose-carlos')">Cerrar</button>
+<button class="btn-gold" data-en="Close" data-es="Cerrar" onclick="closeModal('modal-mateo-alejandro')">Cerrar</button>
 </div>
 </div>
 </div>
-<div class="modal" id="modal-jorge-ascona">
+
+<div class="modal" id="modal-martin-alonso">
 <div class="modal-content profile-modal-content">
-<button class="modal-close" onclick="closeModal('modal-jorge-ascona')">×</button>
-<h2 class="profile-modal-name">JORGE LUIS ASCONA BALDEÓN</h2>
+<button class="modal-close" onclick="closeModal('modal-martin-alonso')">×</button>
+<h2 class="profile-modal-name">MARTÍN ALONSO PAREDES ROJAS</h2>
 <p class="profile-modal-role" data-en="PARTNER" data-es="SOCIO">SOCIO</p>
 <hr class="profile-divider"/>
-<p class="profile-email"><i class="fa-solid fa-envelope"></i> jorge.ascona@angulo.com.pe</p>
+<p class="profile-email"><i class="fa-solid fa-envelope"></i> martin.paredes@tuplusabogados.com.pe</p>
 <div class="profile-modal-body">
 <h3 data-en="Academic Background:" data-es="Formación académica:">Formación académica:</h3>
-<p data-en="Lawyer specialized in Criminal Procedural Law, Oral Advocacy, and Economic Crimes. Extensive background in sponsoring complex criminal proceedings and corporate preventive consulting." data-es="Abogado especialista en Derecho Procesal Penal, Litigación Oral y Delitos Económicos. Amplia trayectoria en el patrocinio de procesos penales complejos y consultoría preventiva corporativa.">Abogado especialista en Derecho Procesal Penal, Litigación Oral y Delitos Económicos. Amplia trayectoria en el patrocinio de procesos penales complejos y consultoría preventiva corporativa.</p>
+<p data-en="Lawyer graduated in the top third, specialist in Tax Law and strategic fiscal planning." data-es="Abogado titulado con tercio superior, especialista en Derecho Tributario y planeamiento fiscal estratégico.">Abogado titulado con tercio superior, especialista en Derecho Tributario y planeamiento fiscal estratégico.</p>
 <h3 data-en="Experience:" data-es="Experiencia:">Experiencia:</h3>
-<p data-en="Partner at Angulo Abogados with extensive experience in defending high-complexity criminal litigation, regulatory compliance, and sponsorship before judicial and arbitral instances." data-es="Socio en Angulo Abogados con amplia experiencia en la defensa de litigios penales de alta complejidad, compliance normativo y patrocinio ante instancias judiciales y arbitrales.">Socio en Angulo Abogados con amplia experiencia en la defensa de litigios penales de alta complejidad, compliance normativo y patrocinio ante instancias judiciales y arbitrales.</p>
+<p data-en="Lead partner in national and international tax consulting, and defense in complex fiscal disputes." data-es="Socio líder en consultoría tributaria nacional e internacional, y defensa en controversias fiscales complejas.">Socio líder en consultoría tributaria nacional e internacional, y defensa en controversias fiscales complejas.</p>
+<h3 data-en="Theses and Publications:" data-es="Tesis y publicaciones:">Tesis y publicaciones:</h3>
+<ul>
+<li data-en="“Transfer pricing and its impact on corporate restructurings.” Themis Magazine No. 71, 2020." data-es="“Los precios de transferencia y su impacto en las reestructuraciones empresariales.” Revista Themis N.° 71, 2020.">“Los precios de transferencia y su impacto en las reestructuraciones empresariales.” Revista Themis N.° 71, 2020.</li>
+</ul>
+<h3 data-en="Memberships:" data-es="Membresías:">Membresías:</h3>
+<ul>
+<li data-en="Lima Bar Association." data-es="Colegio de Abogados de Lima.">Colegio de Abogados de Lima.</li>
+<li data-en="Peruvian Institute of Tax Law (IPDT)." data-es="Instituto Peruano de Derecho Tributario (IPDT).">Instituto Peruano de Derecho Tributario (IPDT).</li>
+</ul>
+<h3 data-en="Teaching:" data-es="Docencia:">Docencia:</h3>
+<ul>
+<li data-en="Adjunct Professor of International Taxation at Universidad del Pacífico." data-es="Profesor adjunto de Tributación Internacional en la Universidad del Pacífico.">Profesor adjunto de Tributación Internacional en la Universidad del Pacífico.</li>
+</ul>
 <h3 data-en="Languages:" data-es="Idiomas:">Idiomas:</h3>
 <ul>
 <li data-en="Spanish" data-es="Español">Español</li>
@@ -64,30 +76,37 @@ const perfilMarkup = `<div class="modal" id="modal-jose-carlos">
 </ul>
 </div>
 <div class="text-right mt-3">
-<button class="btn-gold" data-en="Close" data-es="Cerrar" onclick="closeModal('modal-jorge-ascona')">Cerrar</button>
+<button class="btn-gold" data-en="Close" data-es="Cerrar" onclick="closeModal('modal-martin-alonso')">Cerrar</button>
 </div>
 </div>
 </div>
-<div class="modal" id="modal-isabel-espejo">
+
+<div class="modal" id="modal-sofia-valeria">
 <div class="modal-content profile-modal-content">
-<button class="modal-close" onclick="closeModal('modal-isabel-espejo')">×</button>
-<h2 class="profile-modal-name">ISABEL ESPEJO CASTILLO</h2>
-<p class="profile-modal-role" data-en="SENIOR ASSOCIATE" data-es="ASOCIADA PRINCIPAL">ASOCIADA PRINCIPAL</p>
+<button class="modal-close" onclick="closeModal('modal-sofia-valeria')">×</button>
+<h2 class="profile-modal-name">SOFÍA VALERIA CAMPOS HUAMÁN</h2>
+<p class="profile-modal-role" data-en="PRINCIPAL ASSOCIATE" data-es="ASOCIADA PRINCIPAL">ASOCIADA PRINCIPAL</p>
 <hr class="profile-divider"/>
-<p class="profile-email"><i class="fa-solid fa-envelope"></i> isabel.espejo@angulo.com.pe</p>
+<p class="profile-email"><i class="fa-solid fa-envelope"></i> sofia.campos@tuplusabogados.com.pe</p>
 <div class="profile-modal-body">
 <h3 data-en="Academic Background:" data-es="Formación académica:">Formación académica:</h3>
-<p data-en="Lawyer graduated with honors, specialist in Corporate Law, Regulatory Compliance, and Prevention of Corporate Criminal Risks." data-es="Abogada graduada con mención de honor, especialista en Derecho Corporativo, Cumplimiento Normativo y Prevención de Riesgos Penales Empresariales.">Abogada graduada con mención de honor, especialista en Derecho Corporativo, Cumplimiento Normativo y Prevención de Riesgos Penales Empresariales.</p>
+<p data-en="Lawyer specialized in Intellectual Property, New Technologies, and Data Protection." data-es="Abogada especialista en Propiedad Intelectual, Nuevas Tecnologías y Protección de Datos.">Abogada especialista en Propiedad Intelectual, Nuevas Tecnologías y Protección de Datos.</p>
 <h3 data-en="Experience:" data-es="Experiencia:">Experiencia:</h3>
-<p data-en="Senior Associate at Angulo Abogados. Advises companies on the design of crime prevention programs and procedural sponsorship in corporate investigations." data-es="Asociada Principal en Angulo Abogados. Asesora a empresas en el diseño de programas de prevención de delitos y patrocinio procesal en investigaciones corporativas.">Asociada Principal en Angulo Abogados. Asesora a empresas en el diseño de programas de prevención de delitos y patrocinio procesal en investigaciones corporativas.</p>
+<p data-en="Senior legal advisor in charge of trademark and patent registration as well as technological regulatory compliance." data-es="Asesora legal senior encargada del registro de marcas, patentes y cumplimiento regulatorio tecnológico.">Asesora legal senior encargada del registro de marcas, patentes y cumplimiento regulatorio tecnológico.</p>
+<h3 data-en="Memberships:" data-es="Membresías:">Membresías:</h3>
+<ul>
+<li data-en="Lima Bar Association." data-es="Colegio de Abogados de Lima.">Colegio de Abogados de Lima.</li>
+<li data-en="Inter-American Association of Intellectual Property (ASIPI)." data-es="Asociación Interamericana de la Propiedad Intelectual (ASIPI).">Asociación Interamericana de la Propiedad Intelectual (ASIPI).</li>
+</ul>
 <h3 data-en="Languages:" data-es="Idiomas:">Idiomas:</h3>
 <ul>
 <li data-en="Spanish" data-es="Español">Español</li>
 <li data-en="English" data-es="Inglés">Inglés</li>
+<li data-en="Portuguese" data-es="Portugués">Portugués</li>
 </ul>
 </div>
 <div class="text-right mt-3">
-<button class="btn-gold" data-en="Close" data-es="Cerrar" onclick="closeModal('modal-isabel-espejo')">Cerrar</button>
+<button class="btn-gold" data-en="Close" data-es="Cerrar" onclick="closeModal('modal-sofia-valeria')">Cerrar</button>
 </div>
 </div>
 </div>`;

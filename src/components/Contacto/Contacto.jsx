@@ -15,7 +15,7 @@ const contactoMarkup = `<section class="section-secondary" id="contacto">
 </div>
 <div class="contact-info-card">
 <h4><i class="fa-solid fa-phone"></i> <span data-lang="phone_title">Central Telefónica</span></h4>
-<p>+51 (1) 614-7000 / +51 987 654 321</p>
+<p>+51 (1) 555-666 / +51 999 888 777</p>
 </div>
 <div class="contact-info-card">
 <h4><i class="fa-solid fa-envelope"></i> <span data-lang="email_title">Correo de Atención</span></h4>
@@ -26,7 +26,7 @@ const contactoMarkup = `<section class="section-secondary" id="contacto">
 </iframe>
 </div>
 </div>
-<form action="https://formspree.io/f/mnppjqll" class="calculator-container form-reset" method="POST">
+<form action={${import.meta.env.VITE_FORMSPREE_ENDPOINT || ''}} method="POST">
 <div class="form-group">
 <label data-lang="form_name" for="nombre">Nombre Completo / Razón Social</label>
 <input class="form-control" id="nombre" name="nombre" placeholder="Ej: Juan Pérez / Empresa S.A.C." required="" type="text"/>
@@ -37,7 +37,7 @@ const contactoMarkup = `<section class="section-secondary" id="contacto">
 </div>
 <div class="form-group">
 <label data-lang="form_phone" for="telefono">Teléfono / WhatsApp</label>
-<input class="form-control" id="telefono" name="telefono" placeholder="+51 987 654 321" type="tel"/>
+<input class="form-control" id="telefono" name="telefono" placeholder="+51 999 888 777" type="tel"/>
 </div>
 <div class="form-group">
 <label data-lang="form_spec" for="especialidad">Área de Consulta / Especialidad</label>
