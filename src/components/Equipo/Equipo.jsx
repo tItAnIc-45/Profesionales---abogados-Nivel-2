@@ -47,6 +47,7 @@ export default function Equipo() {
       nombre: "MATEO ALEJANDRO VALDIVIA RIVERA",
       cargo: isEnglish ? "FOUNDING PARTNER" : "SOCIO FUNDADOR",
       email: "mateo.valdivia@tuplusabogados.com.pe",
+      nombre: "MATEO ALEJANDRO VALDIVIA RIVERA",
       img: "/assets/team-1.jpg",
       formacion: [
         "Abogado especialista en Derecho Corporativo y Fusiones y Adquisiciones por la Universidad del Pacífico (2012).",
@@ -96,7 +97,7 @@ export default function Equipo() {
       id: 3,
       nombre: "SOFÍA VALERIA CAMPOS HUAMÁN",
       cargo: isEnglish ? "PRINCIPAL ASSOCIATE" : "ASOCIADA PRINCIPAL",
-      email: "sofia.campos@tuplusabogados.com.pe",
+      email: "sofia.campos@angulo.com.pe",
       img: "/assets/team-3.jpg",
       formacion: [
       "Abogada especialista en Propiedad Intelectual, Nuevas Tecnologías y Protección de Datos."
@@ -112,7 +113,7 @@ export default function Equipo() {
       id: 4,
       nombre: "DIEGO ARMANDO SILVA GUEVARA",
       cargo: isEnglish ? "SENIOR ASSOCIATE" : "ASOCIADO SENIOR",
-      email: "diego.silva@tuplusabogados.com.pe",
+      email: "diego.silva@angulo.com.pe",
       img: "/assets/team-1.jpg",
       formacion: [
         "Especialista en Derecho Financiero, Mercado de Valores y Banca."
@@ -128,7 +129,7 @@ export default function Equipo() {
       id: 5,
       nombre: "ANDREA LUCÍA MENDOZA SALAZAR",
       cargo: isEnglish ? "ASSOCIATE" : "ASOCIADA",
-      email: "andrea.mendoza@tuplusabogados.com.pe",
+      email: "andrea.mendoza@angulo.com.pe",
       img: "/assets/team-3.jpg",
       formacion: [
         "Abogada especialista en Derecho Ambiental y Regulación de Recursos Naturales."
@@ -144,7 +145,7 @@ export default function Equipo() {
       id: 6,
       nombre: "GABRIEL IGNACIO ROJAS NAVARRO",
       cargo: isEnglish ? "JUNIOR CONSULTANT" : "CONSULTOR JUNIOR",
-      email: "gabriel.rojas@tuplusabogados.com.pe",
+      email: "gabriel.rojas@angulo.com.pe",
       img: "/assets/team-2.jpg",
       formacion: [
         "Especialista en Derecho de la Competencia y Protección al Consumidor."
