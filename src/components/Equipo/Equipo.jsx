@@ -44,9 +44,9 @@ export default function Equipo() {
   const abogadosList = [
     {
       id: 1,
-      nombre: "JOSÉ CARLOS ANGULO PORTOCARRERO",
+      nombre: "Pedro Roberto Torres ",
       cargo: isEnglish ? "FOUNDING PARTNER" : "SOCIO FUNDADOR",
-      email: "jose.carlos@angulo.com.pe",
+      email: "pedro@tuplusAbogados.com",
       img: "/assets/team-1.jpg",
       formacion: [
         "Abogado especialista en Derecho Penal Económico y Derecho Procesal Penal por la Universidad Particular de San Martín de Porres (2000).",
@@ -59,9 +59,9 @@ export default function Equipo() {
         "Actualmente se desempeña como Socio Director de Angulo Abogados, donde viene ejerciendo profesionalmente desde el año 2007."
       ],
       publicaciones: [
-        "“La presunción de inocencia en el Nuevo Código Procesal Penal.” Revista Advocatus N.° 17, Universidad de Lima, 2007.",
-        "“Criterios de la legítima defensa: Análisis en torno a un dictamen del Ministerio Público” en Temas de Derecho Penal, Ius et Veritas, Lima, 2012.",
-        "“La atribución de responsabilidad penal de las personas jurídicas y los modelos de prevención del delito…” Revista Advocatus N.° 33, 2017."
+        '“La presunción de inocencia en el Nuevo Código Procesal Penal.” Revista Advocatus N.° 17, Universidad de Lima, 2007.',
+        '“Criterios de la legítima defensa: Análisis en torno a un dictamen del Ministerio Público” en Temas de Derecho Penal, Ius et Veritas, Lima, 2012.',
+        '“La atribución de responsabilidad penal de las personas jurídicas y los modelos de prevención del delito…” Revista Advocatus N.° 33, 2017.'
       ],
       membresias: [
         "Instituto Peruano de Criminología y Ciencias Penales (INPECCP).",
@@ -75,9 +75,9 @@ export default function Equipo() {
     },
     {
       id: 2,
-      nombre: "JORGE LUIS ASCONA BALDEÓN",
-      cargo: isEnglish ? "PARTNER" : "SOCIO",
-      email: "jorge.ascona@angulo.com.pe",
+      nombre: "Ana Lucia Vega ",
+      cargo: isEnglish ? "PARTNER" : "SOCIA",
+      email: "ana@tuplusAbogados.com",
       img: "/assets/team-2.jpg",
       formacion: [
         "Abogado titulado con mención de honor, especialista en derecho penal corporativo y litigación estratégica."

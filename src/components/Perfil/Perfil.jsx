@@ -1,12 +1,12 @@
 import './Perfil.css';
 
-const perfilMarkup = `<div class="modal" id="modal-jose-carlos">
+const perfilMarkup = `<div class="modal" id="modal-abo1">
 <div class="modal-content profile-modal-content">
-<button class="modal-close" onclick="closeModal('modal-jose-carlos')">×</button>
+<button class="modal-close" onclick="closeModal('modal-abo1')">×</button>
 <h2 class="profile-modal-name">JOSE CARLOS ANGULO PORTOCARRERO</h2>
 <p class="profile-modal-role" data-en="FOUNDING PARTNER" data-es="SOCIO FUNDADOR">SOCIO FUNDADOR</p>
 <hr class="profile-divider"/>
-<p class="profile-email"><i class="fa-solid fa-envelope"></i> jose.carlos@angulo.com.pe</p>
+<p class="profile-email"><i class="fa-solid fa-envelope"></i> pedro.roberto@torres.com.pe</p>
 <div class="profile-modal-body">
 <h3 data-en="Academic Background:" data-es="Formación académica:">Formación académica:</h3>
 <p data-en="Lawyer specialized in Economic Criminal Law and Criminal Procedural Law from the Universidad Particular de San Martín de Porres (2000). Completed studies in the Master's in Criminal Law at the Pontificia Universidad Católica del Perú (2004) and Postgraduate studies in Criminal Law at the University of Salamanca, Spain (2003)." data-es="Abogado especialista en Derecho Penal Económico y Derecho Procesal Penal por la Universidad Particular de San Martín de Porres (2000). Estudios culminados en la Maestría de Derecho Penal de la Pontificia Universidad Católica del Perú (2004) y de Posgrado en Derecho Penal en la Universidad de Salamanca, España (2003).">Abogado especialista en Derecho Penal Económico y Derecho Procesal Penal por la Universidad Particular de San Martín de Porres (2000). Estudios culminados en la Maestría de Derecho Penal de la Pontificia Universidad Católica del Perú (2004) y de Posgrado en Derecho Penal en la Universidad de Salamanca, España (2003).</p>
@@ -41,7 +41,7 @@ const perfilMarkup = `<div class="modal" id="modal-jose-carlos">
 </ul>
 </div>
 <div class="text-right mt-3">
-<button class="btn-gold" data-en="Close" data-es="Cerrar" onclick="closeModal('modal-jose-carlos')">Cerrar</button>
+<button class="btn-gold" data-en="Close" data-es="Cerrar" onclick="closeModal('modal-abo1')">Cerrar</button>
 </div>
 </div>
 </div>

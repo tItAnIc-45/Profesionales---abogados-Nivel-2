@@ -12,10 +12,10 @@ const footerMarkup = `<footer>
 <div>
 <h4 class="footer-title" data-lang="foot_nav">Navegación</h4>
 <ul class="footer-links">
-<li><a data-lang="nav_firm" href="#la-firma">La Firma</a></li>
-<li><a data-lang="nav_practices" href="#practicas">Áreas de Práctica</a></li>
-<li><a data-lang="nav_team" href="#equipo">Nuestros Abogados</a></li>
-<li><a data-lang="nav_calculator" href="#cotizador">Calculadora Legal</a></li>
+<li><a data-lang="nav_firm" href="/la-firma">La Firma</a></li>
+<li><a data-lang="nav_practices" href="/practicas">Áreas de Práctica</a></li>
+<li><a data-lang="nav_team" href="/equipo">Nuestros Abogados</a></li>
+<li><a data-lang="nav_calculator" href="/cotizador">Calculadora Legal</a></li>
 </ul>
 </div>
 <div>
@@ -26,13 +26,7 @@ const footerMarkup = `<footer>
 <li><a data-en="Code of Ethics" data-es="Código de Ética" href="#etica" onclick="mostrarLegal('etica')">Código de Ética</a></li>
 </ul>
 </div>
-<div>
-<h4 class="footer-title">Documentación</h4>
-<p class="footer-doc-text">Consulte las características técnicas de la plantilla.</p>
-<button class="btn-outline btn-full" onclick="openModal('readmeModal')">
-<i class="fa-solid fa-file-code"></i> Ver README.md
-                    </button>
-</div>
+
 </div>
 <div class="footer-bottom">
 <div data-en="© 2026 TuPlus Abogados. All rights reserved." data-es="© 2026 TuPlus Abogados. Todos los derechos reservados.">© 2026 TuPlus Abogados. Todos los derechos reservados.</div>
