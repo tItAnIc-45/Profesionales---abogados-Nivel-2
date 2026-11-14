@@ -60,9 +60,9 @@ export default function Equipo() {
         "Actualmente se desempeña como Socio Principal de TuPlusAbogados, liderando el departamento de derecho corporativo desde el año 2015."
       ],
       publicaciones: [
-        'Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.',
+        '“Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.',
         'Gobierno corporativo en empresas familiares: retos y perspectivas para el mercado andino.',
-        'La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.'
+        '“La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.'
       ],
       membresias: [
         "Instituto Peruano de Derecho Mercantil (IPDM)",
@@ -97,7 +97,7 @@ export default function Equipo() {
       id: 3,
       nombre: "SOFÍA VALERIA CAMPOS HUAMÁN",
       cargo: isEnglish ? "PRINCIPAL ASSOCIATE" : "ASOCIADA PRINCIPAL",
-      email: "sofia.campos@angulo.com.pe",
+      email: "sofia.campos@tuplusabogados.com.pe",
       img: "/assets/team-3.jpg",
       formacion: [
       "Abogada especialista en Propiedad Intelectual, Nuevas Tecnologías y Protección de Datos."
