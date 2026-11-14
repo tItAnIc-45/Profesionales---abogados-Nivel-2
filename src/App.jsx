@@ -9,7 +9,7 @@ import Equipo from './components/Equipo/Equipo';
 import Cotizador from './components/Cotizador/Cotizador';
 import Contacto from './components/Contacto/Contacto';
 import WhatsappFloat from './components/WhatsappFloat/WhatsappFloat';
-import ReadmeModal from './components/ReadmeModal/ReadmeModal';
+
 import Footer from './components/Footer/Footer';
 import Legal from './components/Legal/Legal';
 import Perfil from './components/Perfil/Perfil';
@@ -29,7 +29,7 @@ export default function App() {
       {/* Elementos fijos globales que se ven en todas las rutas */}
       <Navbar />
       <WhatsappFloat />
-      <ReadmeModal />
+      
       <ScrollTop />
 
       {/* Aquí manejamos las rutas para que cada sección sea una vista independiente */}

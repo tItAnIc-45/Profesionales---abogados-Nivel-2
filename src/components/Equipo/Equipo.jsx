@@ -47,6 +47,7 @@ export default function Equipo() {
       nombre: "MATEO ALEJANDRO VALDIVIA RIVERA",
       cargo: isEnglish ? "FOUNDING PARTNER" : "SOCIO FUNDADOR",
       email: "mateo.valdivia@tuplusabogados.com.pe",
+      nombre: "MATEO ALEJANDRO VALDIVIA RIVERA",
       img: "/assets/team-1.jpg",
       formacion: [
         "Abogado especialista en Derecho Corporativo y Fusiones y Adquisiciones por la Universidad del Pacífico (2012).",
@@ -59,9 +60,9 @@ export default function Equipo() {
         "Actualmente se desempeña como Socio Principal de TuPlusAbogados, liderando el departamento de derecho corporativo desde el año 2015."
       ],
       publicaciones: [
-        'Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.',
+        '“Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.',
         'Gobierno corporativo en empresas familiares: retos y perspectivas para el mercado andino.',
-        'La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.'
+        '“La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.'
       ],
       membresias: [
         "Instituto Peruano de Derecho Mercantil (IPDM)",
@@ -112,7 +113,7 @@ export default function Equipo() {
       id: 4,
       nombre: "DIEGO ARMANDO SILVA GUEVARA",
       cargo: isEnglish ? "SENIOR ASSOCIATE" : "ASOCIADO SENIOR",
-      email: "diego.silva@tuplusabogados.com.pe",
+      email: "diego.silva@angulo.com.pe",
       img: "/assets/team-1.jpg",
       formacion: [
         "Especialista en Derecho Financiero, Mercado de Valores y Banca."
@@ -128,7 +129,7 @@ export default function Equipo() {
       id: 5,
       nombre: "ANDREA LUCÍA MENDOZA SALAZAR",
       cargo: isEnglish ? "ASSOCIATE" : "ASOCIADA",
-      email: "andrea.mendoza@tuplusabogados.com.pe",
+      email: "andrea.mendoza@angulo.com.pe",
       img: "/assets/team-3.jpg",
       formacion: [
         "Abogada especialista en Derecho Ambiental y Regulación de Recursos Naturales."
@@ -144,7 +145,7 @@ export default function Equipo() {
       id: 6,
       nombre: "GABRIEL IGNACIO ROJAS NAVARRO",
       cargo: isEnglish ? "JUNIOR CONSULTANT" : "CONSULTOR JUNIOR",
-      email: "gabriel.rojas@tuplusabogados.com.pe",
+      email: "gabriel.rojas@angulo.com.pe",
       img: "/assets/team-2.jpg",
       formacion: [
         "Especialista en Derecho de la Competencia y Protección al Consumidor."
