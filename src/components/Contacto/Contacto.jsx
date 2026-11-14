@@ -26,7 +26,9 @@ const contactoMarkup = `<section class="section-secondary" id="contacto">
 </iframe>
 </div>
 </div>
-<form action={${import.meta.env.VITE_FORMSPREE_ENDPOINT || ''}} method="POST">
+
+<form action="${import.meta.env.VITE_FORMSPREE_URL}" class="calculator-container form-reset" method="POST">
+
 <div class="form-group">
 <label data-lang="form_name" for="nombre">Nombre Completo / Razón Social</label>
 <input class="form-control" id="nombre" name="nombre" placeholder="Ej: Juan Pérez / Empresa S.A.C." required="" type="text"/>
