@@ -350,8 +350,22 @@ html.rm-open .btn-scroll-top-left {
     }
 
     .contact-grid {
-        gap: 2.5rem;
-    }
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.5rem;
+}
+
+ .contact-grid > * {
+    min-width: 0;
+} 
+
+.contact-grid .calculator-container {
+    width: 100%;
+}
+
+.map-container iframe {
+    display: block;
+    max-width: 100%;
+}
 
     .calc-grid {
         gap: 2rem;
@@ -368,6 +382,14 @@ html.rm-open .btn-scroll-top-left {
 
     .firma-text .value-card p {
         text-align: left;
+
+    }
+    .footer-grid{
+        text-align: center;
+    }
+     .footer-bottom {
+        justify-content: center;
+        text-align: center;
     }
 }
 
