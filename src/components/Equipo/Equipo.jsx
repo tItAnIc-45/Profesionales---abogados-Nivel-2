@@ -47,7 +47,6 @@ export default function Equipo() {
       nombre: "MATEO ALEJANDRO VALDIVIA RIVERA",
       cargo: isEnglish ? "FOUNDING PARTNER" : "SOCIO FUNDADOR",
       email: "mateo.valdivia@tuplusabogados.com.pe",
-      nombre: "MATEO ALEJANDRO VALDIVIA RIVERA",
       img: "/assets/team-1.jpg",
       formacion: [
         "Abogado especialista en Derecho Corporativo y Fusiones y Adquisiciones por la Universidad del Pacífico (2012).",
@@ -87,7 +86,7 @@ export default function Equipo() {
       "Socio líder en consultoría tributaria nacional e internacional, y defensa en controversias fiscales complejas."
       ],
     publicaciones: [
-      'Los precios de transferencia y su impacto en las reestructuraciones empresariales.” Revista Themis N.° 71, 2020.'
+      '“Los precios de transferencia y su impacto en las reestructuraciones empresariales.” Revista Themis N.° 71, 2020.'
       ],
     membresias: ["Colegio de Abogados de Lima.", "Instituto Peruano de Derecho Tributario (IPDT)."],
     docencia: ["Profesor adjunto de Tributación Internacional en la Universidad del Pacífico."],

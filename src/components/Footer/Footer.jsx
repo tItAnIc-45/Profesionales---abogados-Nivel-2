@@ -4,7 +4,7 @@ const footerMarkup = `<footer>
 <div class="container">
 <div class="footer-grid">
 <div>
-<a class="footer-logo" href="#">
+<a class="footer-logo" href="/">
 <i class="fa-solid fa-scale-balanced gold-text"></i> TUPLUS ABOGADOS
 </a>
 <p class="footer-desc" data-lang="footer_desc">Firma legal comprometida con el desarrollo corporativo, la defensa jurídica integral y la excelencia en el patrocinio de nuestros clientes.</p>
@@ -21,9 +21,9 @@ const footerMarkup = `<footer>
 <div>
 <h4 class="footer-title" data-lang="foot_legal">Legal</h4>
 <ul class="footer-links">
-<li><a data-en="Terms of Service" data-es="Términos de Servicio" href="#terminos" onclick="mostrarLegal('terminos')">Términos de Servicio</a></li>
-<li><a data-en="Privacy Policy" data-es="Política de Privacidad" href="#privacidad" onclick="mostrarLegal('privacidad')">Política de Privacidad</a></li>
-<li><a data-en="Code of Ethics" data-es="Código de Ética" href="#etica" onclick="mostrarLegal('etica')">Código de Ética</a></li>
+<li><a data-en="Terms of Service" data-es="Términos de Servicio" href="/legal#terminos">Términos de Servicio</a></li>
+<li><a data-en="Privacy Policy" data-es="Política de Privacidad" href="/legal#privacidad">Política de Privacidad</a></li>
+<li><a data-en="Code of Ethics" data-es="Código de Ética" href="/legal#etica">Código de Ética</a></li>
 </ul>
 </div>
 <div>

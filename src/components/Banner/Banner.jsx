@@ -23,7 +23,7 @@ export default function Banner() {
             <h1 className="hero-title" data-lang="hero_title">Defendemos sus Intereses con Rigor Estratégico y Ética</h1>
             <p className="hero-desc" data-lang="hero_desc">Firma legal multidisciplinaria especializada en derecho corporativo, civil, penal y regulatorio.</p>
             <div className="hero-actions">
-              <a className="btn-gold" href="/contacto"><span data-lang="hero_btn1">Agendar Cita Presencial</span> <i class="fa-solid fa-arrow-right"></i></a>
+              <a className="btn-gold" href="/contacto"><span data-lang="hero_btn1">Agendar Cita Presencial</span> <i className="fa-solid fa-arrow-right"></i></a>
               <a className="btn-outline" data-lang="hero_btn2" href="/la-firma">Conocer La Firma</a>
             </div>
           </div>
@@ -35,8 +35,8 @@ export default function Banner() {
             <h1 className="hero-title" data-lang="hero_title_2">Soluciones Legales Preventivas para el Crecimiento Empresarial</h1>
             <p className="hero-desc" data-lang="hero_desc_2">Acompañamiento estratégico en contratos, fusiones, cumplimiento normativo y gobierno corporativo.</p>
             <div className="hero-actions">
-              <a className="btn-gold" href="/contacto"><span data-lang="hero_btn1_2">Agendar Cita Presencial</span> <i class="fa-solid fa-arrow-right"></i></a>
-              <a className="btn-outline" data-lang="hero_btn2_2" href="/servicios">Áreas de Práctica</a>
+              <a className="btn-gold" href="/contacto"><span data-lang="hero_btn1_2">Agendar Cita Presencial</span> <i className="fa-solid fa-arrow-right"></i></a>
+              <a className="btn-outline" data-lang="hero_btn2_2" href="/areas">Áreas de Práctica</a>
             </div>
           </div>
         )}
@@ -47,7 +47,7 @@ export default function Banner() {
             <h1 className="hero-title" data-lang="hero_title_3">Representación Sólida ante Instancias Judiciales y Arbitrales</h1>
             <p className="hero-desc" data-lang="hero_desc_3">Estrategias procesales diseñadas a medida con absoluta confidencialidad y respaldo técnico.</p>
             <div className="hero-actions">
-              <a className="btn-gold" href="/contacto"><span data-lang="hero_btn1_3">Consulta Legal</span> <i class="fa-solid fa-arrow-right"></i></a>
+              <a className="btn-gold" href="/contacto"><span data-lang="hero_btn1_3">Consulta Legal</span> <i className="fa-solid fa-arrow-right"></i></a>
               <a className="btn-outline" data-lang="hero_btn2_3" href="/equipo">Nuestro Equipo</a>
             </div>
           </div>

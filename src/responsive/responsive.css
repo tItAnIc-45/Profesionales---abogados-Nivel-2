@@ -399,8 +399,9 @@ html.rm-open .btn-scroll-top-left {
 
 @media (max-width: 768px) {
     .hero {
-        min-height: auto;
-        padding: 8rem 1.5rem 4rem;
+        height: 85vh;
+        min-height: 620px;
+        padding: 8rem 2.75rem 4rem;
     }
 
     .section-header {
@@ -486,7 +487,7 @@ html.rm-open .btn-scroll-top-left {
 
     /* Banner */
     .hero {
-        padding: 7rem 1.25rem 3.5rem;
+        padding: 7rem 2.75rem 3.5rem;
     }
 
     .hero-subtitle {
