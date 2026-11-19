@@ -1,5 +1,7 @@
 import './Contacto.css';
 
+const formspreeUrl = import.meta.env.VITE_FORMSPREE_URL || import.meta.env.VITE_FORMSPREE_ENDPOINT || '';
+
 const contactoMarkup = `<section class="section-secondary" id="contacto">
 <div class="container">
 <div class="section-header">
@@ -26,7 +28,9 @@ const contactoMarkup = `<section class="section-secondary" id="contacto">
 </iframe>
 </div>
 </div>
-<form action={${import.meta.env.VITE_FORMSPREE_ENDPOINT || ''}} method="POST">
+
+<form action="${formspreeUrl}" class="calculator-container form-reset" method="POST">
+
 <div class="form-group">
 <label data-lang="form_name" for="nombre">Nombre Completo / Razón Social</label>
 <input class="form-control" id="nombre" name="nombre" placeholder="Ej: Juan Pérez / Empresa S.A.C." required="" type="text"/>
@@ -54,6 +58,13 @@ const contactoMarkup = `<section class="section-secondary" id="contacto">
 <div class="form-group">
 <label data-lang="form_msg" for="mensaje">Detalle de la Consulta Legal</label>
 <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Describa brevemente su situación jurídica..." required="" rows="4"></textarea>
+</div>
+<div class="form-group form-check">
+<input id="privacidad" name="privacidad" required="" type="checkbox"/>
+<label for="privacidad">
+<span data-lang="form_privacy">Acepto la Política de Privacidad</span>
+<a data-lang="form_privacy_link" href="/legal#privacidad" rel="noopener noreferrer" target="_blank">Ver política</a>
+</label>
 </div>
 <button class="btn-gold btn-full" data-lang="form_btn" type="submit">Enviar Consulta a TuPlus Abogados</button>
 </form>

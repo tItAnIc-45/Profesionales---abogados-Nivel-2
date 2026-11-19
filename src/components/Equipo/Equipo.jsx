@@ -59,9 +59,9 @@ export default function Equipo() {
         "Actualmente se desempeña como Socio Principal de TuPlusAbogados, liderando el departamento de derecho corporativo desde el año 2015."
       ],
       publicaciones: [
-        'Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.',
+        '“Los pactos de accionistas y su oponibilidad en el derecho societario peruano.” Revista Themis N.° 65, 2017.',
         'Gobierno corporativo en empresas familiares: retos y perspectivas para el mercado andino.',
-        'La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.'
+        '“La responsabilidad de los administradores en operaciones de M&A.” En Anuario de Derecho Mercantil, 2021.'
       ],
       membresias: [
         "Instituto Peruano de Derecho Mercantil (IPDM)",
@@ -86,7 +86,7 @@ export default function Equipo() {
       "Socio líder en consultoría tributaria nacional e internacional, y defensa en controversias fiscales complejas."
       ],
     publicaciones: [
-      'Los precios de transferencia y su impacto en las reestructuraciones empresariales.” Revista Themis N.° 71, 2020.'
+      '“Los precios de transferencia y su impacto en las reestructuraciones empresariales.” Revista Themis N.° 71, 2020.'
       ],
     membresias: ["Colegio de Abogados de Lima.", "Instituto Peruano de Derecho Tributario (IPDT)."],
     docencia: ["Profesor adjunto de Tributación Internacional en la Universidad del Pacífico."],

@@ -36,7 +36,7 @@ const cotizadorMarkup = `<section id="cotizador">
 <span class="calc-result-title" data-lang="calc_est">Honorarios Estimados</span>
 <div class="calc-amount" id="total-fee">S/ 3,000</div>
 <p class="calc-disclaimer" data-lang="calc_disc">*Monto de referencia sujeto a revisión tras primera evaluación documental.</p>
-<a class="btn-gold btn-full" data-lang="calc_btn" href="#contacto">Solicitar Propuesta Formal</a>
+<a class="btn-gold btn-full" data-lang="calc_btn" href="/contacto">Solicitar Propuesta Formal</a>
 </div>
 </div>
 </div>

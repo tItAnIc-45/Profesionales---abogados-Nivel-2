@@ -1,4 +1,6 @@
-const legalMarkup = `<section class="section-secondary legal-section" id="terminos" style="display: none; padding: 4rem 0;">
+import { useEffect } from 'react';
+
+const legalMarkup = `<section class="section-secondary legal-section" id="terminos" style="padding: 4rem 0; scroll-margin-top: 90px;">
 <div class="container">
 <div class="section-header">
 <span class="section-tag" data-en="Legal Framework" data-es="Marco Legal">Marco Legal</span>
@@ -11,11 +13,11 @@ const legalMarkup = `<section class="section-secondary legal-section" id="termin
 <p data-en="The information provided on this website is for informational purposes only and does not constitute formal legal advice until a professional services contract is signed." data-es="La información proporcionada en este sitio web tiene fines meramente informativos y no constituye una asesoría legal formal hasta que se suscriba un contrato de prestación de servicios profesionales entre las partes." style="margin-bottom: 1.5rem;">La información proporcionada en este sitio web tiene fines meramente informativos y no constituye una asesoría legal formal hasta que se suscriba un contrato de prestación de servicios profesionales entre las partes.</p>
 <h3 data-en="2. Intellectual Property" data-es="2. Propiedad Intelectual" style="color: var(--text-light); margin-bottom: 0.5rem; font-size: 1.2rem;">2. Propiedad Intelectual</h3>
 <p data-en="All content, logos (including the hummingbird emblem), designs, text, and source code are the exclusive property of TuPlus Abogados." data-es="Todo el contenido, logotipos (incluyendo el emblema del colibrí), diseños, textos y código fuente son propiedad exclusiva de TuPlus Abogados." style="margin-bottom: 1.5rem;">Todo el contenido, logotipos (incluyendo el emblema del colibrí), diseños, textos y código fuente son propiedad exclusiva de TuPlus Abogados.</p>
-<button class="btn-outline" data-en="Close / Back" data-es="Cerrar / Volver" onclick="cerrarLegal()" style="margin-top: 1rem;">Cerrar / Volver</button>
+<a class="btn-outline" data-en="Close / Back" data-es="Cerrar / Volver" href="/" style="margin-top: 1rem; display: inline-block;">Cerrar / Volver</a>
 </div>
 </div>
 </section>
-<section class="section-secondary legal-section" id="privacidad" style="display: none; padding: 4rem 0;">
+<section class="section-secondary legal-section" id="privacidad" style="padding: 4rem 0; scroll-margin-top: 90px;">
 <div class="container">
 <div class="section-header">
 <span class="section-tag" data-en="Confidentiality" data-es="Confidencialidad">Confidencialidad</span>
@@ -24,11 +26,11 @@ const legalMarkup = `<section class="section-secondary legal-section" id="termin
 </div>
 <div class="legal-content" style="max-width: 800px; margin: 0 auto; color: var(--text-muted); line-height: 1.8;">
 <p data-en="At TuPlus Abogados we value and respect your privacy. Data provided through our contact forms or fee calculator are handled under strict confidentiality standards." data-es="En TuPlus Abogados valoramos y respetamos su privacidad. Los datos proporcionados a través de nuestros formularios de contacto o calculadora de honorarios son tratados bajo rigurosos estándares de confidencialidad y secreto profesional." style="margin-bottom: 1.5rem;">En TuPlus Abogados valoramos y respetamos su privacidad. Los datos proporcionados a través de nuestros formularios de contacto o calculadora de honorarios son tratados bajo rigurosos estándares de confidencialidad y secreto profesional.</p>
-<button class="btn-outline" data-en="Close / Back" data-es="Cerrar / Volver" onclick="cerrarLegal()" style="margin-top: 1rem;">Cerrar / Volver</button>
+<a class="btn-outline" data-en="Close / Back" data-es="Cerrar / Volver" href="/" style="margin-top: 1rem; display: inline-block;">Cerrar / Volver</a>
 </div>
 </div>
 </section>
-<section class="section-secondary legal-section" id="etica" style="display: none; padding: 4rem 0;">
+<section class="section-secondary legal-section" id="etica" style="padding: 4rem 0; scroll-margin-top: 90px;">
 <div class="container">
 <div class="section-header">
 <span class="section-tag" data-en="Corporate Values" data-es="Valores Corporativos">Valores Corporativos</span>
@@ -37,11 +39,21 @@ const legalMarkup = `<section class="section-secondary legal-section" id="termin
 </div>
 <div class="legal-content" style="max-width: 800px; margin: 0 auto; color: var(--text-muted); line-height: 1.8;">
 <p data-en="Our legal professionals act under strict principles of integrity, loyalty, independence, and professional secrecy, ensuring an ethical defense of our clients' interests." data-es="Nuestros profesionales del derecho actúan bajo estrictos principios de probidad, lealtad, independencia y secreto profesional, garantizando una defensa ética y rigurosa de los intereses de nuestros clientes." style="margin-bottom: 1.5rem;">Nuestros profesionales del derecho actúan bajo estrictos principios de probidad, lealtad, independencia y secreto profesional, garantizando una defensa ética y rigurosa de los intereses de nuestros clientes.</p>
-<button class="btn-outline" data-en="Close / Back" data-es="Cerrar / Volver" onclick="cerrarLegal()" style="margin-top: 1rem;">Cerrar / Volver</button>
+<a class="btn-outline" data-en="Close / Back" data-es="Cerrar / Volver" href="/" style="margin-top: 1rem; display: inline-block;">Cerrar / Volver</a>
 </div>
 </div>
 </section>`;
 
 export default function Legal() {
+  useEffect(() => {
+    const id = window.location.hash.replace('#', '');
+    if (!id) return;
+
+    const frame = requestAnimationFrame(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    });
+    return () => cancelAnimationFrame(frame);
+  }, []);
+
   return <div dangerouslySetInnerHTML={{ __html: legalMarkup }} />;
 }
